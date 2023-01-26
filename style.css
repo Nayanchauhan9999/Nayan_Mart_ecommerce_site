@@ -752,9 +752,17 @@ del {
 .featured-card p{
     font-size: 15px;
 }
+.hot2-top-image, .hot2-bottom-image{
+  width: 50%;
+}
 .hot2-top-image img, .hot2-bottom-image img{
     height: 100%;
-    width: 203px;
+}
+.discount .hot2-top-image,.discount .hot2-bottom-image{
+  width: 100%;
+}
+.discount .hot2-top-image img,.discount .hot2-bottom-image img{
+  width: 100%;
 }
 .partner{
     display: flex;
