@@ -218,6 +218,7 @@ input[type="search"]::-webkit-search-cancel-button {
   width: 70%;
   margin-right: 30px;
   position: relative;
+  height: 450px;
 }
 .hot1 img {
   width: 100%;
@@ -240,6 +241,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .hot2-top-image img,
 .hot2-bottom-image img {
   width: 100%;
+  height: 207px;
   filter: contrast(60%);
 }
 .content-corosel {
@@ -440,6 +442,10 @@ del {
   margin-top: 30px;
   box-sizing: border-box;
   overflow: hidden;
+}
+.discount .hot2-top-image img,.discount .hot2-bottom-image img{
+  height: 300px ;
+  width: 550px;
 }
 .hot2-left-image {
   margin-right: 30px;
@@ -689,7 +695,7 @@ del {
   .hot2{
     flex-direction: row;
     width: 100%;
-    height: 138px;
+    height: 203px;
   }
   .hot1 img {
     height: 97%;
@@ -748,6 +754,7 @@ del {
 }
 .hot2-top-image img, .hot2-bottom-image img{
     height: 100%;
+    width: 203px;
 }
 .partner{
     display: flex;
