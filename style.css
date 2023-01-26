@@ -683,17 +683,24 @@ del {
     font-size: 9px;
   }
   .hot1 {
-    margin-right: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .hot2{
+    flex-direction: row;
+    width: 100%;
+    height: 138px;
   }
   .hot1 img {
     height: 97%;
   }
   .hot2-top-image {
-    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
   }
   .hot2-top-image img,
   .hot2-bottom-image img {
-    height: 70px;
+    height: 100%;
   }
   .banners {
     display: block;
@@ -708,6 +715,7 @@ del {
   }
   .hot-deals {
     margin-bottom: 15px;
+    display: block;
 }
 .main-content h1{
     font-size: 23px;
@@ -739,7 +747,7 @@ del {
     font-size: 15px;
 }
 .hot2-top-image img, .hot2-bottom-image img{
-    height: auto;
+    height: 100%;
 }
 .partner{
     display: flex;
